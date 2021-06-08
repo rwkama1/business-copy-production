@@ -1,0 +1,16 @@
+{
+  "name": "businessproduction",
+  "version": "1.0.1",
+  "description": "A copy business has a daily production limit of 10,000 copies if the type of printing is offset and 50,000 if the type is standard. If there is a request from one, the employee has to verify that the copies pending so far and the requested copies do not exceed the production limit. If the production limit were exceeded, the requested work could not be accepted. The employee needs to keep a good track of the copies requested so far to quickly decide whether the jobs requested on the day should be accepted or not.",
+  "scripts": {
+    "start": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rwkama1/business-copy-production"
+  },
+ 
+  "keywords": ["js","javascript","calculation","backend"],
+  "author": "Carlos Rodriguez <rwkamandriw@gmail.com>",
+  "license": "MIT"
+}
